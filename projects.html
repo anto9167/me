@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | YOUR NAME</title>
+<meta name="description" content="Student developer and work for hire: photography, videography, lifeguarding and retail.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a href="index.html">YOUR NAME</a>
+  <nav aria-label="Main">
+    <a href="index.html">Home</a>
+    <a href="index.html#hire">Work for hire</a>
+    <a href="projects.html" aria-current="page">Projects</a>
+    <a href="professional.html">Professional</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+<main>
+  <div class="page-head">
+    <h1>Projects</h1>
+    <p>Things I build for fun and to learn. Each project runs on its own subdomain.</p>
+  </div>
+  <section>
+    <h2>All projects</h2>
+    <div class="list">
+      <!-- Copy one row per project. Change the link, name, description and subdomain text. -->
+      <a class="row" href="https://project-one.yourdomain.com"><b>Project One</b><span>One line on what it does.</span><small>project-one.yourdomain.com</small></a>
+      <a class="row" href="https://project-two.yourdomain.com"><b>Project Two</b><span>One line on what it does.</span><small>project-two.yourdomain.com</small></a>
+      <a class="row" href="https://project-three.yourdomain.com"><b>Project Three</b><span>One line on what it does.</span><small>project-three.yourdomain.com</small></a>
+    </div>
+  </section>
+  <section>
+    <h2>Stack</h2>
+    <dl class="facts">
+      <div><dt>Working with</dt><dd>Python, JavaScript, HTML/CSS</dd></div>
+      <div><dt>Learning</dt><dd>Something you're into right now</dd></div>
+    </dl>
+  </section>
+</main>
+<footer id="contact">
+  <span>&copy; <span id="y">2026</span> Your Name &middot; <a href="mailto:you@yourdomain.com">you@yourdomain.com</a></span>
+  <span><a href="https://github.com/yourusername">GitHub</a> &nbsp; <a href="https://instagram.com/yourusername">Instagram</a></span>
+</footer>
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>
